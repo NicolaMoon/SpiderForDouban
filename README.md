@@ -81,7 +81,7 @@ superagent.get(moviePages[i]).end(function(err,sres){
 ```
 ### 6. 分析页面代码
 分析页面代码可得：
-![页面代码分析](https://img-blog.csdn.net/20181008223835231?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05pY29sYV9Nb29u/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![页面代码分析](https://raw.githubusercontent.com/NicolaMoon/SpiderForDouban/master/%E9%93%BE%E6%8E%A5%E4%BD%8D%E7%BD%AE.png)
  可看出，所有页面的链接都在class为hd的div内的第一个a标签里面，通过cheerio来得到并push进movieAs：
 ```JavaScript
 $('.hd').each(function(index,element){
