@@ -109,7 +109,7 @@ ep.emit('allMovies');
 放在for循环之中，每次执行这句代码，就是对ep.after对应参数的一次触发。
 ### 8. 结果
 具体的就是这样，这些执行完毕能够将各个电影的链接存入movieAs数组，然后，在askForInfo函数里面对这些链接分别进行页面分析，得到自己想要的信息，我将每个电影的名字，评分，以及上映日期进行了爬取：
-![爬取的结果](https://img-blog.csdn.net/20181008225256391?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05pY29sYV9Nb29u/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![爬取的结果](https://raw.githubusercontent.com/NicolaMoon/SpiderForDouban/master/%E7%88%AC%E5%8F%96%E5%88%B0%E7%9A%84%E6%95%B0%E6%8D%AE.png)
 
 ## 全部代码
 
